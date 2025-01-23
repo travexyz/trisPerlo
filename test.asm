@@ -1,8 +1,9 @@
 start:
 	LD B, 0
+	LD A, 2
+	LD (128), A
 
 attesa1:
-
 	IN A, (0)
 	CP 1
 	JP NZ, attesa1
