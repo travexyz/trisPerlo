@@ -1,4 +1,4 @@
 main:
-	LD A, 2
-	LD (128), A
+	LD A, 1
+	LD (129), A
 	HALT
