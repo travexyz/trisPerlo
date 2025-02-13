@@ -1,7 +1,8 @@
 start:
 	LD B, 0
-	LD A, 2
-	LD (128), A
+	LD A, 0
+	IN A, (130)
+	HALT
 
 attesa1:
 	IN A, (0)
